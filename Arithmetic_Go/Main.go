@@ -10,6 +10,6 @@ func main() {
 	balance = simple_arithmetic.DirectInsertionSort1(balance)
 	//balance = simple_arithmetic.BinaryInsertionSort(balance)
 	//simple_arithmetic.DirectInsertionSort2(balance)
-	//fmt.Println(simple_arithmetic.BinarySearchByRecursive(balance, 10))
 	fmt.Println(balance)
+	fmt.Println(simple_arithmetic.BinarySearchEqualByRecursive(balance, 8))
 }

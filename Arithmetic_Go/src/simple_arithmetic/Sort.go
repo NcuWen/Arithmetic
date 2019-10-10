@@ -75,7 +75,7 @@ func DirectInsertionSort2(point []float32) {
 func BinaryInsertionSort(point []float32) []float32 {
 	var result = make([]float32, 0, len(point))
 	for _, v := range point {
-		index := BinarySearchByRecursive(result, v)
+		index := BinarySearchFirstGreaterByRecursive(result, v)
 		temp := append([]float32{}, result[index:]...)
 		result = append(result[:index], v)
 		result = append(result, temp...)
