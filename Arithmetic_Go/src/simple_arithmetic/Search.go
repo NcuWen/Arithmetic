@@ -51,7 +51,7 @@ func bsFirstGreaterByRecursive(point []float32, v float32, low, high int) int {
 func BinarySearchEqualByRecursive(point []float32, v float32) int {
 	size := len(point)
 	if size == 0 {
-		// 切片长为空时返回 0
+		// 切片长为空时返回 -1
 		return -1
 	}
 	return bsEqualByRecursive(point, v, 0, size-1)
