@@ -1,7 +1,16 @@
-package simple_arithmetic
+/**
+ * @Author: Ncuwen
+ * @Description:
+ * @File:  Search
+ * @Version: 1.0.0
+ * @Date: 2019/10/11 11:01
+ */
+
+package searchs
 
 /**
- * 二分查找算法: 在指定切片(有序)中查找第一个大于给定值的元素索引
+ * @title	BinarySearchFirstGreaterByRecursive
+ * @description	二分查找算法: 在指定切片(有序)中查找第一个大于给定值的元素索引
  * 递归实现
  * @Param: point []float32 指定的切片
  * @Param: v float32 给定的值
@@ -17,7 +26,8 @@ func BinarySearchFirstGreaterByRecursive(point []float32, v float32) int {
 }
 
 /**
- * 二分查找算法的递归部分: 在指定切片(有序)中查找第一个大于给定值的元素索引
+ * @title	bsFirstGreaterByRecursive
+ * @description	二分查找算法的递归部分: 在指定切片(有序)中查找第一个大于给定值的元素索引
  * @Param: point []float32 指定的切片
  * @Param: v float32 给定的值
  * @Param: low, high int 查找的指定上下标
@@ -42,7 +52,8 @@ func bsFirstGreaterByRecursive(point []float32, v float32, low, high int) int {
 }
 
 /**
- * 二分查找算法: 在指定切片(有序)中查找第一个大于给定值的元素索引
+ * @title	BinarySearchEqualByRecursive
+ * @description	二分查找算法: 在指定切片(有序)中查找第一个大于给定值的元素索引
  * 递归实现
  * @Param: point []float32 指定的切片
  * @Param: v float32 给定的值
@@ -58,7 +69,8 @@ func BinarySearchEqualByRecursive(point []float32, v float32) int {
 }
 
 /**
- * 二分查找算法的递归部分: 在指定切片(有序)中查找等于给定值的元素索引
+ * @title	bsEqualByRecursive
+ * @description	二分查找算法的递归部分: 在指定切片(有序)中查找等于给定值的元素索引
  * @Param: point []float32 指定的切片
  * @Param: v float32 给定的值
  * @Param: low, high int 查找的指定上下标
