@@ -133,11 +133,12 @@ func merge(left, right []float32) []float32 {
 
 /**
  * @title	MergeSort
- * @description 归并排序算法
+ * @description 归并排序算法(递归)
  * 空间复杂度: O(2n)
  * 时间复杂度: O(n)
  * @auth: ncuwen
  * @param: point	需要进行排序的切片
+ * @return: 已排序的切片
  */
 func MergeSort(point []float32) []float32 {
 	if len(point) < 2 {
